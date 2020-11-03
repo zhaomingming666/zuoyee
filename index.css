@@ -1,0 +1,365 @@
+*{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor:pointer;
+    font-size:12px;
+    color:gray;
+}
+.clear{
+    clear: both;
+} 
+img{
+    cursor:pointer;
+}
+span{
+    cursor:pointer;
+}
+input{
+    cursor:pointer;
+    outline: none;
+}
+.header{
+    width: 80%;
+    padding: 0 10%;
+    height: 70px;
+}
+.logo{
+    float: left;
+    width: 20%;
+    height: 70px;
+    line-height: 70px;
+}
+.menu{
+    width: 50%;
+    height: 70px;
+    float: left;
+}
+.menu ul li{
+    float: left;
+    width: 16%;
+    text-align: center;
+    height: 68px;
+    line-height: 68px;
+}
+.menu ul li a{
+    display: block;
+    font-size: 16px;
+    color: #333;
+}
+.search{
+    float: right;
+    height: 70px;
+}
+.search input{
+    float: left;
+    margin-top: 20px;
+    background: #ededed;
+    border: none;
+}
+.search input:nth-child(1){
+    width: 150px;
+    height: 30px;
+    padding:0 10px;
+}
+.search input:nth-child(2){
+    height: 30px;
+    padding:0 10px;
+    border-left: 1px solid gray;
+}
+.topnav{
+    height: 70px;
+    width: 80%;
+    padding: 0 10%;
+    background: #f0f0f0;
+}
+.topnav ol{
+    float: left;
+}
+.topnav ol li{
+    float: left;
+    line-height: 68px;
+    padding-right: 20px;
+}
+.topnav ol li a{
+    font-size: 14px;
+    color: #000000;
+}
+.bagdiv{
+    width: 100%;
+    height: 500px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: cornflowerblue;
+}
+.compary-wrap{
+    width: 80%;
+    padding: 0 10%;
+}
+.compary-wrap .compary-text{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.compary-text p{
+    text-indent:2em;
+    line-height: 30px;
+}
+.account{
+    background: #f2f2f2;
+    height: 200px;
+    overflow: hidden;
+}
+.account .divleft,.divcenter,.divright{
+    float: left;
+    width: 32%;
+    height: 80%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.account .divleft,.divcenter,.divright P{
+    font-size: 20px;
+    line-height: 40px;
+}
+.account .divleft{
+    border-right: 2px solid gray;
+}
+.account .divcenter{
+    border-right: 2px solid gray;
+}
+.numb{
+    font-size: 50px;
+    font-weight: bold;
+    color: #00b4d5;
+}
+.bodydiv{
+    width: 80%;
+    padding: 0 10%;
+    background:#f2f2f2 ;
+    height: 900px;
+    margin-top: 50px;
+}
+.duty-left{
+    width: 30%;
+    height: 75%;
+    float: left;
+    background: #ffffff;
+}
+.duty-right{
+    float: right;
+    width: 65%;
+    height: 75%;
+}
+.right-top{
+    height: 35%;
+    width: 100%;
+    background: #ffffff;
+}
+.right-center{
+    height: 5%;
+    padding-left: 30px;
+    color: gray;
+    line-height: 35px;
+}
+.right-bottom{
+    height: 60%;
+    width: 100%;
+    background: #ffffff;
+}
+.leftbagimg{
+    width: 100%;
+    height: 30%;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lefttxt{
+    width: 80%;
+    height: 60%;
+    padding: 0 10%;
+    margin-top: 10%;
+}
+.lefttxt h1{
+    border-bottom: 3px solid #00b4d5;
+
+}
+.lefttxt p{
+    font-size: 20px;
+    line-height: 40px;
+    color: gray;
+    margin-top: 20px;
+}
+.contleft{
+    float: left;
+    height: 100%;
+    width: 40%;
+    padding: 0 2%;
+}
+.contleft h1{
+    border-bottom: 3px solid #00b4d5;
+    margin-top: 15px;
+}
+.contleft p{
+    font-size: 20px;
+    line-height: 30px;
+    color: gray;
+    margin-top: 15px;
+}
+.topbagimg{
+    float: right;
+    height: 100%;
+    width: 56%;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botmbagimg{
+    float: left;
+    height: 100%;
+    width: 60%;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contright{
+    float: left;
+    height: 100%;
+    width: 36%;
+    padding: 0 2%;
+}
+.contright h1{
+    border-bottom: 3px solid #00b4d5;
+    margin-top: 15px;
+}
+.contright p{
+    font-size: 20px;
+    line-height: 35px;
+    color: gray;
+    margin-top: 20px;
+}
+.warpbottom{
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+.warpbottom div{
+    flex: 1;
+    
+}
+.warpbottom div:nth-child(1){
+    background:yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.warpbottom div:nth-child(2){
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.warpbottom div:nth-child(3){
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.warpbottom div:nth-child(4){
+    background: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.warpbottom div:hover{
+    background: black;
+    color: #ffffff;
+}
+.footer{
+    width: 80%;
+    padding: 0 10%;
+    background: #f2f2f2;
+    overflow: hidden;
+}
+.footnav{
+    width: 100%;
+    height: 500px;
+    margin-top: 80px;
+}
+.footbomnav{
+    width: 100%;
+    height: 150px;
+    border-top: 1px solid gray;
+
+}
+.fontwid{
+    font-weight: bolder;
+    color: black;
+}
+.footnav ul{
+    padding-left: 25px;
+}
+.footnav li{
+    line-height: 30px;
+}
+.footnav li a{
+    font-size: 16px;
+}
+.onenav{
+    float: left;
+    width: 14%;
+    height: 70%;
+    border-right: 1px solid gray;
+}
+.twonav{
+    float: left;
+    width: 14%;
+    height: 70%;
+    border-right: 1px solid gray;
+}
+.threenav{
+    float: left;
+    width: 45%;
+    height: 70%;
+    border-right: 1px solid gray;
+}
+.threenav ul{
+    float: left;
+}
+.frounav{
+    float: left;
+    width: 14%;
+    height: 70%;
+    border-right: 1px solid gray;
+}
+.fivenav{
+    float: left;
+    width: 10%;
+    height: 70%;
+}
+.otherleft{
+    float: left;
+    height: 150px;
+    line-height: 150px;
+    padding-left: 50px;
+}
+.otherright{
+    float: right;
+}
+.otherright p{
+    line-height: 30px;
+    margin-top: 20px;
+}
+.otherright p span{
+    margin-left: 40px;
+}
